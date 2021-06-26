@@ -29,7 +29,7 @@ body {
   background-color:darkgreen;
   width: 700px;
   background-position: center;
-  margin-left: 600px; 
+  margin-left: 580px; 
   height: 25px;
   text-align: center;
   padding-top: 1px;
@@ -93,4 +93,29 @@ body {
   .saveBtn i:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
+  }
+
+
+  @media screen and (max-width: 760px) {
+    
+    .jumbotron {
+      
+      width: 1200px;
+    }
+
+    body {
+      
+      width: 1100px;
+  }
+  .row {
+   
+    width: 700px;
+}
+
+.saveBtn {
+
+  margin-left: 363px;
+}
+      
+   
   }
