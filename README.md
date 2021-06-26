@@ -20,6 +20,8 @@ It will save your tasks and it displays past, present and future with different 
 
 -JavaScript
 
+-moment.js
+
 ## Repository address
 https://github.com/Volchenok89/MilitaryHourScheduler.git
 
