@@ -28,6 +28,7 @@ https://github.com/Volchenok89/MilitaryHourScheduler.git
 https://volchenok89.github.io/MilitaryHourScheduler/
 
 
+![screenshotclock](https://user-images.githubusercontent.com/77917594/123508694-c7411f80-d625-11eb-87be-67754692539d.png)
 
 
 
@@ -35,4 +36,4 @@ https://volchenok89.github.io/MilitaryHourScheduler/
 ##Contribution
 Made with ❤️ by [Volchenok89]
 
-©️2021 Calendar Scheduler
+©️2021 Military Scheduler
