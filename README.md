@@ -1,7 +1,7 @@
 
 ### Challenge5
 
-# Calendar Scheduler
+# Military Scheduler
 
 A website that offers a military time calendar. 
 You will be able to schedule any events that you wish to add.
