@@ -1,136 +1,126 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 1;
-    background-color: darkgreen;
-  }
-  
-  textarea{
-    background: transparent;
-    border: none;
-    resize: none;
-    color: #000000;
-    border-left: 5px solid rgb(196, 10, 10);
-    padding: 10px;
-  }
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  background-color: darkgreen;
+}
 
-  
-  .jumbotron {
-    background-image: url("../images/ship.png");
-    text-align: center;
-    background-color: transparent;
-    color: black;
-    border-radius: 0;
-    border-bottom: 10px solid black;
-  }
-  
-  .lead {
-  color:aqua;
-  background-color:darkgreen;
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 5px solid rgb(196, 10, 10);
+  padding: 10px;
+}
+
+.jumbotron {
+  background-image: url("../images/ship.png");
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.lead {
+  color: aqua;
+  background-color: darkgreen;
   width: 700px;
   background-position: center;
-  margin-left: 580px; 
+  margin-left: 580px;
   height: 25px;
   text-align: center;
   padding-top: 1px;
   border-radius: 5px;
-
-  }
-
-  .display-3 {
-    font-size: 4.5rem;
-    font-weight: 700;
-    line-height: 1.2;
 }
 
+.display-3 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
 
-  .description{
-    white-space: pre-wrap;
-  }
-  
-  .time-block{
-    text-align: center;
-    border-radius: 15px;
-    
-  }
-  
-  .row {
-    white-space: pre-wrap;
-    height: 80px;
-    border-top: 1px solid white;;
-  }
-  
-  .hour {
-    background-color: #084106;
-    color: #6bccbc;
-    border-top: 1px dashed #000000;
-    padding-top: 20px;
-  }
-  
-  .past {
-    background-color: #d3d3d383;
-    color: white;
-  }
-  
-  .present {
-    background-color: #ff6961;
-    color: white;
-  }
-  
-  .future {
-    background-color: #77dd77;
-    color: white;
-  }
-  
-  .saveBtn {
-    border-left: 1px solid black;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: #0752a8;
-    color: white;
-  }
-  
-  .saveBtn i:hover {
-    font-size: 20px;
-    transition: all .3s ease-in-out;
-  }
+.description {
+  white-space: pre-wrap;
+}
 
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
 
-  @media screen and (max-width: 760px) {
-    
-    .jumbotron {
-      
-      width: 1340px;
-    }
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+}
 
-    body {
-      
-      width: 1000px;
-  }
+.hour {
+  background-color: #084106;
+  color: #6bccbc;
+  border-top: 1px dashed #000000;
+  padding-top: 20px;
+}
 
-  .hour   {
+.past {
+  background-color: #d3d3d383;
+  color: white;
+}
 
-    width: 100px;
-    height: 90px;
+.present {
+  background-color: #ff6961;
+  color: white;
+}
 
-  }
-
-  .container .row .time-block {
-    flex-wrap: none;
-
-  }
-
-  .row {
-   
-    width: 900px;
-    height: 90px;
-    display:flex;
+.future {
+  background-color: #77dd77;
+  color: white;
 }
 
 .saveBtn {
-
-  margin-left: 500px;
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #0752a8;
+  color: white;
 }
-      
-   
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 760px) {
+  .jumbotron {
+    width: 1340px;
   }
+
+  body {
+    width: 1000px;
+  }
+
+  .hour {
+    width: 100px;
+    height: 90px;
+  }
+
+  .row {
+    width: 900px;
+    height: 90px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .lead {
+    margin-left: 300px;
+  }
+
+  .saveBtn {
+    margin-left: 500px;
+  }
+}
