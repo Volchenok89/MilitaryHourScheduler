@@ -23,7 +23,7 @@ https://github.com/Volchenok89/MilitaryHourScheduler.git
 
 ## Website
 
-https://volchenok89.github.io/calendarscheduler
+https://volchenok89.github.io/MilitaryHourScheduler/
 
 
 
