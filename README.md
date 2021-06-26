@@ -1,9 +1,11 @@
 
 ### Challenge5
 
-# Calendar Scheduler
+# Military Scheduler
 
-A website that offers a calendar were you will be able to schedule any events that you wish to add.
+A website that offers a military time calendar. 
+You will be able to schedule any events that you wish to add.
+It will save your tasks and it displays past, present and future with different colors.
 
 
 
@@ -17,11 +19,11 @@ A website that offers a calendar were you will be able to schedule any events th
 -JavaScript
 
 ## Repository address
-https://github.com/Volchenok89/calendarscheduler
+https://github.com/Volchenok89/MilitaryHourScheduler.git
 
 ## Website
 
-https://volchenok89.github.io/calendarscheduler
+https://volchenok89.github.io/MilitaryHourScheduler/
 
 
 
