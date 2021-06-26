@@ -2,6 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
+    background-color: darkgreen;
   }
   
   textarea{
@@ -25,8 +26,23 @@ body {
   
   .lead {
   color:aqua;
+  background-color:darkgreen;
+  width: 700px;
+  background-position: center;
+  margin-left: 370px; 
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
 
   }
+
+  .display-3 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+
   .description{
     white-space: pre-wrap;
   }
@@ -43,9 +59,10 @@ body {
   }
   
   .hour {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #084106;
+    color: #6bccbc;
     border-top: 1px dashed #000000;
+    padding-top: 20px;
   }
   
   .past {
@@ -67,7 +84,7 @@ body {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #06AED5;
+    background-color: #0752a8;
     color: white;
   }
   
