@@ -133,7 +133,7 @@ margin-left: 200;
   }
 
   .saveBtn {
-    margin-left: 500px;
+    width: 200px;
   }
 }
 
@@ -156,6 +156,13 @@ margin-left: 200;
     height: 90px;
   }
 
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
   .row {
     width: 900px;
@@ -172,7 +179,7 @@ margin-left: 200;
 
 
   .saveBtn {
-    margin-left: 500px;
+    width: 200px;
   }
 
 }
