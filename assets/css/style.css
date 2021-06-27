@@ -118,6 +118,12 @@ textarea {
     margin: 10px 0 0 50px
   }
 
+  textarea.col-md-10.description {
+    width: 300%;
+}
+
+
+
   .lead {
     margin-left: 300px;
   }
@@ -128,20 +134,23 @@ textarea {
 }
 
 
+
 @media screen and (max-width: 575px) {
   .jumbotron {
     width: 1340px;
     margin-bottom: 80px;
   }
 
+
   body {
     width: 1000px;
   }
 
-  .hour {
-    width: 100px;
-    height: 90px;
-  }
+  .container {
+
+    margin-left: 200px;
+}
+
 
   .row {
     width: 900px;
@@ -151,11 +160,13 @@ textarea {
     margin: 10px 0 0 200px
   }
 
-  .lead {
-    margin-left: 300px;
-  }
 
-  .saveBtn {
-    margin-left: 500px;
-  }
+  textarea.col-md-10.description {
+    width: 100%;
 }
+
+  
+
+}
+
+
