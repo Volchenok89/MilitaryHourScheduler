@@ -98,6 +98,7 @@ textarea {
 @media screen and (max-width: 760px) {
   .jumbotron {
     width: 1340px;
+    margin-bottom: 80px;
   }
 
   body {
@@ -114,6 +115,40 @@ textarea {
     height: 90px;
     display: flex;
     flex-wrap: nowrap;
+    margin: 10px 0 0 50px
+  }
+
+  .lead {
+    margin-left: 300px;
+  }
+
+  .saveBtn {
+    margin-left: 500px;
+  }
+}
+
+
+@media screen and (max-width: 575px) {
+  .jumbotron {
+    width: 1340px;
+    margin-bottom: 80px;
+  }
+
+  body {
+    width: 1000px;
+  }
+
+  .hour {
+    width: 100px;
+    height: 90px;
+  }
+
+  .row {
+    width: 900px;
+    height: 90px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px 0 0 200px
   }
 
   .lead {
