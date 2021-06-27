@@ -23,6 +23,12 @@ textarea {
   border-bottom: 10px solid black;
 }
 
+.container {
+margin-left: 200;
+
+
+
+}
 .lead {
   color: aqua;
   background-color: darkgreen;
@@ -51,10 +57,13 @@ textarea {
 }
 
 .row {
-  white-space: pre-wrap;
+  display: flex;
+  flex-wrap: nowrap;
   height: 80px;
   border-top: 1px solid white;
+  margin: 10px 0 20px 40px;
 }
+
 
 .hour {
   background-color: #084106;
@@ -117,12 +126,7 @@ textarea {
     flex-wrap: nowrap;
     margin: 10px 0 0 50px
   }
-
-  textarea.col-md-10.description {
-    width: 300%;
-}
-
-
+  
 
   .lead {
     margin-left: 300px;
@@ -146,10 +150,11 @@ textarea {
     width: 1000px;
   }
 
-  .container {
 
-    margin-left: 200px;
-}
+  .hour {
+    width: 100px;
+    height: 90px;
+  }
 
 
   .row {
@@ -161,11 +166,14 @@ textarea {
   }
 
 
-  textarea.col-md-10.description {
-    width: 100%;
-}
+  .lead {
+    margin-left: 300px;
+  }
 
-  
+
+  .saveBtn {
+    margin-left: 500px;
+  }
 
 }
 
